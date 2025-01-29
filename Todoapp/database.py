@@ -2,7 +2,6 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-password = "Mysqldev@45"
 
 #sqlite 
 SQLALCHEMY_DATABSE_URL = 'sqlite:///./todosapp.db'
